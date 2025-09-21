@@ -35,3 +35,40 @@ This is the backend for the Jobs application. Built with **Django** and **Django
 ```bash
 git clone https://github.com/yourusername/yourrepo.git
 cd yourrepo
+```
+
+```bash
+python -m venv venv
+source venv/bin/activate      # Linux/macOS
+venv\Scripts\activate         # Windows
+```
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+``` 
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+```bash
+python manage.py createsuperuser
+```
+
+## Start the development server
+
+```bash
+python manage.py runserver
+```
+
+## Your backend is now running at:
+
+```bash
+http://127.0.0.1:8000/
+```
+
+## Admin panel: http://127.0.0.1:8000/admin/
+
+## API endpoint: http://127.0.0.1:8000/api/candidates/
